@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Statistics</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 5px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: rebeccapurple;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+<h2>Game Statistics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Score</th>
+      <th>Time Played</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Player 1</td>
+      <td>1500</td>
+      <td>2 hours</td>
+    </tr>
+    <tr>
+      <td>Player 2</td>
+      <td>1200</td>
+      <td>1.5 hours</td>
+    </tr>
+    <tr>
+      <td>Player 3</td>
+      <td>1800</td>
+      <td>3 hours</td>
+    </tr>
+    <tr>
+      <td>Player 4</td>
+      <td>1350</td>
+      <td>2.5 hours</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
